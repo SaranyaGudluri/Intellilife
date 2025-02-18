@@ -1,0 +1,197 @@
+/* styles.css
+.meal-planner-card {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .meal-plan {
+    margin-top: 30px;
+  }
+  
+  .meal-plan-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .meal-list {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .meal-item {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #555;
+  }  */
+
+  .meal-planner-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3bb6bf;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .form-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2a9198;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #1d737a;
+  }
+  
+  .meal-plan {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .meal-plan-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .meal-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .meal-item {
+    font-size: 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .meal-item:last-child {
+    border-bottom: none;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: url('/bgblue.jpg') no-repeat center center fixed;
+    background-size: cover; */
+    background-color: #3bb6bf;
+    text-align: center;
+  }
+  
+  .dashboard-content {
+    color: black;
+  }
+  
+  .app-name {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .app-description {
+    font-size: 1.5rem;
+  }
